@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+.Entrer{
+    background-color: orangered;
+    padding : 1em;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserra', sans-serif;
+}
+nav{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center ;
+    border-bottom: 5px solid black;
+
+}
+nav h1{
+    color : black;
+    font-family: 'Playfair Display', sans-sérif;
+    font-size: 30px;
+
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+nav .onglets a{
+    text-decoration: none ;
+    color: #000;
+    margin-right: 10px;
+    border-top: 1px solid #000;
+    padding-bottom: 5px ;
+
+}
+
+header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('Naruto\ 2.jpg'); 
+    background-size: cover;
+    color: white;
+    padding: 300px;
+    height: 500px; 
+}
+header h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+}
+header h4{
+    margin-top: 500px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+header a{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+.main{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.main .content  .card .left {
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+
+}
+
+.main .content .card.right{
+    flex: 0 0 70%;
+}
+.main .content .card .right img{
+    height: auto;
+    width: 400px;
+    margin-top: 5px;
+
+}
+
+@media screen  and (max-width:680px){
+    nav .onglets{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    
+}
+#Profil{
+    background-color: rgb(9, 9, 46) ;
+}
+.nav{
+    background-color: orangered;
+}
+.navparcours{
+    background-color: rgb(40, 11, 58);
+}
+#Parcours{
+    background-image: url("Univers 1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black;
+    text-align: center;
+
+}
+
+.académique{
+    float: left;
+    width: 35%;
+    margin-left: 3em;
+}
+
+.professionnelle{
+    float: right;
+    width: 35%;
+    margin-right: 3em;
+    
+}
+#Coordonnées{
+    background-image: url("Univers 4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding-bottom: 50%;
+
+
+}
+.Coordonnées{
+    margin-top: 300px;
+    margin-left: 20% ;
+    margin-right: 20%;
+}
+.lien{padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+}
